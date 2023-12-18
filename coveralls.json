@@ -1,0 +1,19 @@
+{
+  "skip_files": [
+    "lib/fullstack_test/application.ex",
+    "lib/fullstack_test/release.ex",
+    "lib/fullstack_test_web.ex",
+    "lib/fullstack_test_web/views/error_helpers.ex",
+    "lib/fullstack_test_web/live/page_live.ex",
+    "test/support/channel_case.ex",
+    "test/support/data_case.ex",
+    "lib/fullstack_test_web/telemetry.ex",
+    "lib/fullstack_test_web/router.ex",
+    "lib/fullstack_test_web/components/core_components.ex"
+  ],
+  "coverage_options": {
+    "treat_no_relevant_lines_as_covered": true,
+    "output_dir": "cover/",
+    "minimum_coverage": 95
+  }
+}
