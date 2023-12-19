@@ -1,5 +1,5 @@
 defmodule FullstackTestWeb.TradingControllerTest do
-  use FullstackTestWeb.ConnCase, async: true
+  use FullstackTestWeb.ConnCase
 
   import Mock
 
