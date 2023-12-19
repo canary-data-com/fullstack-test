@@ -9,27 +9,24 @@ defmodule FullstackTest.Services.TradingServiceTest do
       # Arrange
       selected_company = "AAPL"
       transaction_person = "John Doe"
-      shares_amount = 10
+      shares_amount = "10"
       job_title = "Some Job Title"
 
-      with_mock(HTTPoison,
-        get: fn _url ->
+      with_mock(File,
+        read: fn _ ->
           {:ok,
-           %HTTPoison.Response{
-             status_code: 200,
-             body: """
-               {
-                 "data": [
-                    [
-                      320193,
-                      "Apple Inc.",
-                      "AAPL",
-                      "Nasdaq"
-                    ]
-                 ]
-               }
-             """
-           }}
+           """
+             {
+               "data": [
+                  [
+                    320193,
+                    "Apple Inc.",
+                    "AAPL",
+                    "Nasdaq"
+                  ]
+               ]
+             }
+           """}
         end
       ) do
         # Act
@@ -47,7 +44,7 @@ defmodule FullstackTest.Services.TradingServiceTest do
                  job_title: "Some Job Title",
                  market_cap_percentage: market_cap_percentage,
                  person: "John Doe",
-                 shares: 10,
+                 shares: "10",
                  ticker: "AAPL"
                } = response
 
@@ -59,12 +56,12 @@ defmodule FullstackTest.Services.TradingServiceTest do
       # Arrange
       selected_company = "AAPL"
       transaction_person = "John Doe"
-      shares_amount = 10
+      shares_amount = "10"
       job_title = "Some Job Title"
 
-      with_mock(HTTPoison,
-        get: fn _url ->
-          {:error, "Failed to decode JSON data"}
+      with_mock(File,
+        read: fn _ ->
+          {:error, "Failed to read JSON file"}
         end
       ) do
         # Act
@@ -82,9 +79,47 @@ defmodule FullstackTest.Services.TradingServiceTest do
                  job_title: "Some Job Title",
                  market_cap_percentage: 0.0,
                  person: "John Doe",
-                 shares: 10,
+                 shares: "10",
                  ticker: "AAPL"
                } = response
+      end
+    end
+  end
+
+  describe "get_companies_tickers/0" do
+    test "returns expected response" do
+      # Arrange
+      with_mock(File,
+        read: fn _ ->
+          {:ok,
+           """
+             {
+               "data": [
+                  [
+                    320193,
+                    "Apple Inc.",
+                    "AAPL",
+                    "Nasdaq"
+                  ]
+               ]
+             }
+           """}
+        end
+      ) do
+        # Act
+        assert ["AAPL"] = TradingService.get_companies_tickers()
+      end
+    end
+
+    test "In case of any errors, returns empty list" do
+      # Arrange
+      with_mock(File,
+        read: fn _ ->
+          {:error, "Failed to read JSON file"}
+        end
+      ) do
+        # Act
+        assert [] = TradingService.get_companies_tickers()
       end
     end
   end

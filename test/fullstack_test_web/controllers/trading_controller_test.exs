@@ -8,34 +8,31 @@ defmodule FullstackTestWeb.TradingControllerTest do
       # Arrange
       selected_company = "AAPL"
       transaction_person = "John Doe"
-      shares_amount = 10
+      shares_amount = "10"
       job_title = "Some Job Title"
 
-      with_mock(HTTPoison,
-        get: fn _url ->
+      with_mock(File,
+        read: fn _ ->
           {:ok,
-           %HTTPoison.Response{
-             status_code: 200,
-             body: """
-               {
-                 "data": [
-                    [
-                      320193,
-                      "Apple Inc.",
-                      "AAPL",
-                      "Nasdaq"
-                    ]
-                 ]
-               }
-             """
-           }}
+           """
+             {
+               "data": [
+                  [
+                    320193,
+                    "Apple Inc.",
+                    "AAPL",
+                    "Nasdaq"
+                  ]
+               ]
+             }
+           """}
         end
       ) do
         # Act
         conn =
           conn
           |> post(
-            "/submit",
+            "/api/submit",
             %{
               "selectedCompany" => selected_company,
               "transactionPerson" => transaction_person,
@@ -43,6 +40,37 @@ defmodule FullstackTestWeb.TradingControllerTest do
               "jobTitle" => job_title
             }
           )
+
+        # Assert success
+        assert json_response(conn, 200)
+      end
+    end
+  end
+
+  describe "index/2" do
+    test "returns list of companies successfull", %{conn: conn} do
+      # Arrange
+      with_mock(File,
+        read: fn _ ->
+          {:ok,
+           """
+             {
+               "data": [
+                  [
+                    320193,
+                    "Apple Inc.",
+                    "AAPL",
+                    "Nasdaq"
+                  ]
+               ]
+             }
+           """}
+        end
+      ) do
+        # Act
+        conn =
+          conn
+          |> get("/api/companies")
 
         # Assert success
         assert json_response(conn, 200)

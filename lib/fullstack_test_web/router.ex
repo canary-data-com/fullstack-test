@@ -18,7 +18,14 @@ defmodule FullstackTestWeb.Router do
     pipe_through(:browser)
 
     get("/", PageController, :home)
+  end
+
+  scope "/api", FullstackTestWeb do
+    pipe_through(:api)
+
     post("/submit", TradingController, :submit)
+
+    get("/companies", TradingController, :index)
   end
 
   # Other scopes may use custom stacks.

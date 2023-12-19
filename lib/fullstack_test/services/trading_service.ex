@@ -3,8 +3,6 @@ defmodule FullstackTest.Services.TradingService do
   This module is responsible for executing trades.
   """
 
-  @url "https://www.sec.gov/files/company_tickers_exchange.json"
-
   @doc """
   Executes a trade.
 
@@ -30,10 +28,31 @@ defmodule FullstackTest.Services.TradingService do
       ticker: selected_company,
       person: transaction_person,
       job_title: job_title,
-      date: DateTime.utc_now(),
+      date: DateTime.utc_now() |> NaiveDateTime.truncate(:second),
       shares: shares_amount,
       market_cap_percentage: market_cap_percentage
     }
+  end
+
+  @doc """
+  Fetches the list of companies and their tickers.
+
+  ## Examples
+
+      iex> FullstackTest.Services.TradingService.get_companies_tickers()
+      ["AAPL", "GOOGL", "TESLA"]
+  """
+  def get_companies_tickers do
+    # Fetch the company data
+    case fetch_company_data() do
+      {:ok, %{"data" => company_data}} ->
+        # Extract the company tickers
+        Enum.map(company_data, fn [_cik, _name, ticker, _exchange] -> ticker end)
+
+      {:error, _} ->
+        # Handle error when fetching company data
+        []
+    end
   end
 
   defp calculate_market_cap_percentage(selected_company, shares_amount) do
@@ -43,7 +62,7 @@ defmodule FullstackTest.Services.TradingService do
     # Calculate the market cap percentage
     market_cap_percentage =
       if stock_price > 0.0 do
-        shares_amount * stock_price / total_market_cap * 100
+        String.to_integer(shares_amount) * stock_price / total_market_cap * 100
       else
         0.0
       end
@@ -52,12 +71,14 @@ defmodule FullstackTest.Services.TradingService do
   end
 
   defp fetch_company_data() do
-    case HTTPoison.get(@url) do
-      {:ok, %HTTPoison.Response{status_code: 200, body: body}} ->
-        {:ok, Jason.decode!(body)}
-
-      _ ->
-        {:error, "Failed to decode JSON data"}
+    # read json file
+    with {:ok, json} <- File.read("priv/companies.json"),
+         # Parse the JSON data
+         {:ok, data} <- Jason.decode(json) do
+      {:ok, data}
+    else
+      {:error, _} ->
+        {:error, "Failed to read JSON file"}
     end
   end
 
