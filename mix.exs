@@ -61,8 +61,9 @@ defmodule FullstackTest.MixProject do
       {:plug_cowboy, "~> 2.5"},
       {:excoveralls, "~> 0.18", only: :test},
       {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false},
-      {:httpoison, "~> 2.0"},
-      {:mock, "~> 0.3.0", only: :test}
+      {:mock, "~> 0.3.0", only: :test},
+      {:req, "~> 0.4.0"},
+      {:elixir_xml_to_map, "~> 2.0"}
     ]
   end
 

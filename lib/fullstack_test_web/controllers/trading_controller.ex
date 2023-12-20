@@ -1,9 +1,9 @@
 defmodule FullstackTestWeb.TradingController do
-  alias FullstackTest.Services.TradingService
+  alias FullstackTest.Services.TradingAnalyzer
   use FullstackTestWeb, :controller
 
   def index(conn, _) do
-    response = TradingService.get_companies_tickers()
+    {:ok, response} = TradingAnalyzer.fetch_company_tickers()
 
     conn
     |> put_status(:ok)
@@ -11,14 +11,9 @@ defmodule FullstackTestWeb.TradingController do
     |> json(response)
   end
 
-  def submit(conn, %{
-        "selectedCompany" => selected_company,
-        "transactionPerson" => transaction_person,
-        "sharesAmount" => shares_amount,
-        "jobTitle" => job_title
-      }) do
+  def submit(conn, %{"selectedCompany" => selected_company}) do
     response =
-      TradingService.execute_trade(selected_company, transaction_person, shares_amount, job_title)
+      TradingAnalyzer.analyze_trading(selected_company)
 
     conn
     |> put_status(:ok)

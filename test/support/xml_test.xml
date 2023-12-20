@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+      <email>webmaster@sec.gov</email>
+      <name>Webmaster</name>
+    </author>
+    <company-info>
+      <addresses>
+        <address type="mailing">
+          <city>PARIS LA DEFENSE CEDEX</city>
+          <state>I0</state>
+          <street1>2 PLACE JEAN MILLIER</street1>
+          <street2>ARCHE NORD COUPOLE/REGNAULT</street2>
+          <zip>92078</zip>
+        </address>
+        <address type="business">
+          <city>COURBEVOIE</city>
+          <phone>33 (0)1 41 35 04 48</phone>
+          <state>I0</state>
+          <street1>2 PLACE JEAN MILLIER</street1>
+          <street2>LA DEFENSE 6</street2>
+          <zip>92400</zip>
+        </address>
+      </addresses>
+      <assigned-sic>1311</assigned-sic>
+      <assigned-sic-desc>CRUDE PETROLEUM &amp;amp; NATURAL GAS</assigned-sic-desc>
+      <assigned-sic-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;SIC=1311&amp;owner=include&amp;count=100</assigned-sic-href>
+      <cik>0000879764</cik>
+      <cik-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000879764&amp;owner=include&amp;count=100</cik-href>
+      <conformed-name>TotalEnergies SE</conformed-name>
+      <fiscal-year-end>1231</fiscal-year-end>
+      <formerly-names count="6">
+        <names>
+          <date>1999-05-06</date>
+          <name>TOTAL</name>
+        </names>
+        <names>
+          <date>2003-05-08</date>
+          <name>TOTAL FINA ELF SA</name>
+        </names>
+        <names>
+          <date>2000-10-10</date>
+          <name>TOTAL FINA SA</name>
+        </names>
+        <names>
+          <date>2020-07-10</date>
+          <name>TOTAL S.A.</name>
+        </names>
+        <names>
+          <date>2012-11-28</date>
+          <name>TOTAL SA</name>
+        </names>
+        <names>
+          <date>2021-05-12</date>
+          <name>TOTAL SE</name>
+        </names>
+      </formerly-names>
+      <office>Office of Energy &amp;amp; Transportation</office>
+      <state-location>I0</state-location>
+      <state-location-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;State=I0&amp;owner=include&amp;count=100</state-location-href>
+      <state-of-incorporation>I0</state-of-incorporation>
+    </company-info>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-122871</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-12-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923122871/0001104659-23-122871-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231460019</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-122871</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923122871/0001104659-23-122871-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-12-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-122871 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-12-01T16:33:07-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-122624</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-12-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923122624/0001104659-23-122624-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>231457651</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>864 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-122624</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923122624/0001104659-23-122624-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-12-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-122624 &lt;b&gt;Size:&lt;/b&gt; 864 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-12-01T08:50:47-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-119542</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-11-17</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923119542/0001104659-23-119542-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231419286</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>17 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-119542</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923119542/0001104659-23-119542-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-11-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-119542 &lt;b&gt;Size:&lt;/b&gt; 17 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-11-17T16:32:59-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-116330</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-11-09</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923116330/0001104659-23-116330-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231393155</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-116330</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923116330/0001104659-23-116330-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-11-09 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-116330 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-11-09T16:33:36-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-113517</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-11-02</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923113517/0001104659-23-113517-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>231369793</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>10 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-113517</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923113517/0001104659-23-113517-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-11-02 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-113517 &lt;b&gt;Size:&lt;/b&gt; 10 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-11-02T06:00:29-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-112961</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-10-31</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923112961/0001104659-23-112961-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231365143</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-112961</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923112961/0001104659-23-112961-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-10-31 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-112961 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-10-31T16:31:48-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-111684</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-10-26</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923111684/0001104659-23-111684-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>231349041</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>2 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-111684</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923111684/0001104659-23-111684-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-10-26 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-111684 &lt;b&gt;Size:&lt;/b&gt; 2 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-10-26T12:43:13-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="UPLOAD" />
+      <content type="text/xml">
+        <accession-number>0000000000-23-011644</accession-number>
+        <filing-date>2023-10-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000000000023011644/0000000000-23-011644-index.htm</filing-href>
+        <filing-type>UPLOAD</filing-type>
+        <form-name>SEC-generated letter</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>39 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000000000-23-011644</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000000000023011644/0000000000-23-011644-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-10-24 &lt;b&gt;AccNo:&lt;/b&gt; 0000000000-23-011644 &lt;b&gt;Size:&lt;/b&gt; 39 KB</summary>
+      <title>UPLOAD [Cover] - SEC-generated letter</title>
+      <updated>2023-10-24T15:46:05-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="CORRESP" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-110177</accession-number>
+        <filing-date>2023-10-19</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923110177/0001104659-23-110177-index.htm</filing-href>
+        <filing-type>CORRESP</filing-type>
+        <form-name>Correspondence</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>219 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-110177</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923110177/0001104659-23-110177-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-10-19 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-110177 &lt;b&gt;Size:&lt;/b&gt; 219 KB</summary>
+      <title>CORRESP [Cover] - Correspondence</title>
+      <updated>2023-10-19T17:49:18-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-105512</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-10-02</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923105512/0001104659-23-105512-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>231297576</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>358 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-105512</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923105512/0001104659-23-105512-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-10-02 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-105512 &lt;b&gt;Size:&lt;/b&gt; 358 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-10-02T06:00:29-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="CORRESP" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-103378</accession-number>
+        <filing-date>2023-09-25</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923103378/0001104659-23-103378-index.htm</filing-href>
+        <filing-type>CORRESP</filing-type>
+        <form-name>Correspondence</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>18 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-103378</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923103378/0001104659-23-103378-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-09-25 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-103378 &lt;b&gt;Size:&lt;/b&gt; 18 KB</summary>
+      <title>CORRESP [Cover] - Correspondence</title>
+      <updated>2023-09-25T09:37:25-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="UPLOAD" />
+      <content type="text/xml">
+        <accession-number>0000000000-23-010446</accession-number>
+        <filing-date>2023-09-21</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000000000023010446/0000000000-23-010446-index.htm</filing-href>
+        <filing-type>UPLOAD</filing-type>
+        <form-name>SEC-generated letter</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>47 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000000000-23-010446</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000000000023010446/0000000000-23-010446-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-09-21 &lt;b&gt;AccNo:&lt;/b&gt; 0000000000-23-010446 &lt;b&gt;Size:&lt;/b&gt; 47 KB</summary>
+      <title>UPLOAD [Cover] - SEC-generated letter</title>
+      <updated>2023-09-21T16:30:07-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-100037</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-09-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923100037/0001104659-23-100037-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231250504</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-100037</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923100037/0001104659-23-100037-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-09-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-100037 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-09-12T16:31:58-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13D/A" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-099307</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>2023-09-08</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923099307/0001104659-23-099307-index.htm</filing-href>
+        <filing-type>SC 13D/A</filing-type>
+        <form-name>General statement of acquisition of beneficial ownership</form-name>
+        <size>155 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-099307</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923099307/0001104659-23-099307-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-09-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-099307 &lt;b&gt;Size:&lt;/b&gt; 155 KB</summary>
+      <title>SC 13D/A [Amend]  - General statement of acquisition of beneficial ownership</title>
+      <updated>2023-09-08T16:15:22-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-099303</accession-number>
+        <act>34</act>
+        <file-number>001-36842</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36842&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-09-08</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923099303/0001104659-23-099303-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231245437</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-099303</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923099303/0001104659-23-099303-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-09-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-099303 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-09-08T16:15:06-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="CORRESP" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-099194</accession-number>
+        <filing-date>2023-09-08</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923099194/0001104659-23-099194-index.htm</filing-href>
+        <filing-type>CORRESP</filing-type>
+        <form-name>Correspondence</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>367 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-099194</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923099194/0001104659-23-099194-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-09-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-099194 &lt;b&gt;Size:&lt;/b&gt; 367 KB</summary>
+      <title>CORRESP [Cover] - Correspondence</title>
+      <updated>2023-09-08T11:37:42-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-098664</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-09-06</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923098664/0001104659-23-098664-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231239622</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-098664</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923098664/0001104659-23-098664-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-09-06 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-098664 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-09-06T16:31:56-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-097403</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-09-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923097403/0001104659-23-097403-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>231230499</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>366 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-097403</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923097403/0001104659-23-097403-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-09-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-097403 &lt;b&gt;Size:&lt;/b&gt; 366 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-09-01T06:01:44-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-096573</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-08-29</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923096573/0001104659-23-096573-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231222360</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-096573</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923096573/0001104659-23-096573-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-08-29 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-096573 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-08-29T16:32:52-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="CORRESP" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-092798</accession-number>
+        <filing-date>2023-08-17</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923092798/0001104659-23-092798-index.htm</filing-href>
+        <filing-type>CORRESP</filing-type>
+        <form-name>Correspondence</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>16 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-092798</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923092798/0001104659-23-092798-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-08-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-092798 &lt;b&gt;Size:&lt;/b&gt; 16 KB</summary>
+      <title>CORRESP [Cover] - Correspondence</title>
+      <updated>2023-08-17T06:03:25-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="UPLOAD" />
+      <content type="text/xml">
+        <accession-number>0000000000-23-008783</accession-number>
+        <filing-date>2023-08-11</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000000000023008783/0000000000-23-008783-index.htm</filing-href>
+        <filing-type>UPLOAD</filing-type>
+        <form-name>SEC-generated letter</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>49 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000000000-23-008783</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000000000023008783/0000000000-23-008783-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-08-11 &lt;b&gt;AccNo:&lt;/b&gt; 0000000000-23-008783 &lt;b&gt;Size:&lt;/b&gt; 49 KB</summary>
+      <title>UPLOAD [Cover] - SEC-generated letter</title>
+      <updated>2023-08-11T14:30:06-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-088863</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-08-08</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923088863/0001104659-23-088863-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231151885</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-088863</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923088863/0001104659-23-088863-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-08-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-088863 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-08-08T16:30:24-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-085990</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-08-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923085990/0001104659-23-085990-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>231129446</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>9 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-085990</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923085990/0001104659-23-085990-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-08-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-085990 &lt;b&gt;Size:&lt;/b&gt; 9 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-08-01T06:01:55-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-084695</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-07-27</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923084695/0001104659-23-084695-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>231117083</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>18 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=879764&amp;accession_number=0001104659-23-084695&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-084695</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923084695/0001104659-23-084695-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-07-27 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-084695 &lt;b&gt;Size:&lt;/b&gt; 18 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-07-27T13:31:22-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-083074</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-07-21</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923083074/0001104659-23-083074-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231102901</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-083074</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923083074/0001104659-23-083074-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-07-21 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-083074 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-07-21T16:32:12-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-082027</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-07-18</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923082027/0001104659-23-082027-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231094594</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>16 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-082027</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923082027/0001104659-23-082027-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-07-18 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-082027 &lt;b&gt;Size:&lt;/b&gt; 16 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-07-18T16:30:17-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="3" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-081204</accession-number>
+        <act>34</act>
+        <file-number>001-36842</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36842&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-07-14</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923081204/0001104659-23-081204-index.htm</filing-href>
+        <filing-type>3</filing-type>
+        <film-number>231089185</film-number>
+        <form-name>Initial statement of beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-081204</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923081204/0001104659-23-081204-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-07-14 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-081204 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>3  - Initial statement of beneficial ownership of securities</title>
+      <updated>2023-07-14T16:06:03-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13D/A" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-081196</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>2023-07-14</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923081196/0001104659-23-081196-index.htm</filing-href>
+        <filing-type>SC 13D/A</filing-type>
+        <form-name>General statement of acquisition of beneficial ownership</form-name>
+        <size>130 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-081196</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923081196/0001104659-23-081196-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-07-14 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-081196 &lt;b&gt;Size:&lt;/b&gt; 130 KB</summary>
+      <title>SC 13D/A [Amend]  - General statement of acquisition of beneficial ownership</title>
+      <updated>2023-07-14T16:05:04-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="CORRESP" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-080613</accession-number>
+        <filing-date>2023-07-13</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923080613/0001104659-23-080613-index.htm</filing-href>
+        <filing-type>CORRESP</filing-type>
+        <form-name>Correspondence</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>112 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-080613</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923080613/0001104659-23-080613-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-07-13 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-080613 &lt;b&gt;Size:&lt;/b&gt; 112 KB</summary>
+      <title>CORRESP [Cover] - Correspondence</title>
+      <updated>2023-07-13T10:33:22-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-078760</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-07-06</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923078760/0001104659-23-078760-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231074015</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-078760</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923078760/0001104659-23-078760-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-07-06 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-078760 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-07-06T16:31:29-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-077306</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-07-03</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923077306/0001104659-23-077306-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>231063460</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>420 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-077306</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923077306/0001104659-23-077306-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-07-03 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-077306 &lt;b&gt;Size:&lt;/b&gt; 420 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-07-03T06:01:24-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-075822</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-06-28</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923075822/0001104659-23-075822-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231052608</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-075822</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923075822/0001104659-23-075822-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-06-28 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-075822 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-06-28T16:30:14-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-074298</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-06-23</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923074298/0001104659-23-074298-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>231038206</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-074298</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923074298/0001104659-23-074298-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-06-23 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-074298 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-06-23T16:32:00-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13D" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-074235</accession-number>
+        <filing-date>2023-06-23</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923074235/0001104659-23-074235-index.htm</filing-href>
+        <filing-type>SC 13D</filing-type>
+        <form-name>General statement of acquisition of beneficial ownership</form-name>
+        <size>755 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-074235</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923074235/0001104659-23-074235-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-06-23 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-074235 &lt;b&gt;Size:&lt;/b&gt; 755 KB</summary>
+      <title>SC 13D  - General statement of acquisition of beneficial ownership</title>
+      <updated>2023-06-23T16:05:14-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="CORRESP" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-073250</accession-number>
+        <filing-date>2023-06-21</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923073250/0001104659-23-073250-index.htm</filing-href>
+        <filing-type>CORRESP</filing-type>
+        <form-name>Correspondence</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>20 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-073250</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923073250/0001104659-23-073250-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-06-21 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-073250 &lt;b&gt;Size:&lt;/b&gt; 20 KB</summary>
+      <title>CORRESP [Cover] - Correspondence</title>
+      <updated>2023-06-21T12:01:13-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="UPLOAD" />
+      <content type="text/xml">
+        <accession-number>0000000000-23-006527</accession-number>
+        <filing-date>2023-06-16</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000000000023006527/0000000000-23-006527-index.htm</filing-href>
+        <filing-type>UPLOAD</filing-type>
+        <form-name>SEC-generated letter</form-name>
+        <paper_filing>[Cover]</paper_filing>
+        <size>52 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0000000000-23-006527</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000000000023006527/0000000000-23-006527-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-06-16 &lt;b&gt;AccNo:&lt;/b&gt; 0000000000-23-006527 &lt;b&gt;Size:&lt;/b&gt; 52 KB</summary>
+      <title>UPLOAD [Cover] - SEC-generated letter</title>
+      <updated>2023-06-16T13:30:07-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-068548</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-06-06</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923068548/0001104659-23-068548-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23996549</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-068548</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923068548/0001104659-23-068548-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-06-06 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-068548 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-06-06T16:33:51-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-066759</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-06-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923066759/0001104659-23-066759-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>23982910</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>606 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-066759</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923066759/0001104659-23-066759-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-06-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-066759 &lt;b&gt;Size:&lt;/b&gt; 606 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-06-01T06:00:15-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-066630</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-05-31</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923066630/0001104659-23-066630-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23981432</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-066630</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923066630/0001104659-23-066630-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-05-31 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-066630 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-05-31T16:31:27-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SD" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-066372</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-05-31</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923066372/0001104659-23-066372-index.htm</filing-href>
+        <filing-type>SD</filing-type>
+        <film-number>23979280</film-number>
+        <form-name>Specialized disclosure report</form-name>
+        <size>439 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-066372</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923066372/0001104659-23-066372-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-05-31 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-066372 &lt;b&gt;Size:&lt;/b&gt; 439 KB</summary>
+      <title>SD  - Specialized disclosure report</title>
+      <updated>2023-05-31T09:59:17-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13D/A" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-063689</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>2023-05-23</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923063689/0001104659-23-063689-index.htm</filing-href>
+        <filing-type>SC 13D/A</filing-type>
+        <form-name>General statement of acquisition of beneficial ownership</form-name>
+        <size>85 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-063689</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923063689/0001104659-23-063689-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-05-23 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-063689 &lt;b&gt;Size:&lt;/b&gt; 85 KB</summary>
+      <title>SC 13D/A [Amend]  - General statement of acquisition of beneficial ownership</title>
+      <updated>2023-05-23T17:17:08-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-061874</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-05-17</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923061874/0001104659-23-061874-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23932233</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-061874</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923061874/0001104659-23-061874-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-05-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-061874 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-05-17T16:32:20-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4/A" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-061872</accession-number>
+        <act>34</act>
+        <amend>[Amend]</amend>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-05-17</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923061872/0001104659-23-061872-index.htm</filing-href>
+        <filing-type>4/A</filing-type>
+        <film-number>23932211</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-061872</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923061872/0001104659-23-061872-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-05-17 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-061872 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4/A [Amend]  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-05-17T16:31:23-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-054839</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-05-02</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923054839/0001104659-23-054839-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>23876916</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>8 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-054839</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923054839/0001104659-23-054839-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-05-02 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-054839 &lt;b&gt;Size:&lt;/b&gt; 8 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-05-02T09:28:14-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="S-8" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-050888</accession-number>
+        <act>33</act>
+        <file-number>333-271464</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-271464&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-04-27</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923050888/0001104659-23-050888-index.htm</filing-href>
+        <filing-type>S-8</filing-type>
+        <film-number>23852855</film-number>
+        <form-name>Securities to be offered to employees in employee benefit plans</form-name>
+        <size>151 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-050888</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923050888/0001104659-23-050888-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-04-27 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-050888 &lt;b&gt;Size:&lt;/b&gt; 151 KB</summary>
+      <title>S-8  - Securities to be offered to employees in employee benefit plans</title>
+      <updated>2023-04-27T10:30:09-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="S-8 POS" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-050855</accession-number>
+        <act>33</act>
+        <file-number>333-264261</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-264261&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-04-27</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923050855/0001104659-23-050855-index.htm</filing-href>
+        <filing-type>S-8 POS</filing-type>
+        <film-number>23852527</film-number>
+        <form-name>Securities to be offered to employees in employee benefit plans, post-effective amendments</form-name>
+        <size>18 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-050855</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923050855/0001104659-23-050855-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-04-27 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-050855 &lt;b&gt;Size:&lt;/b&gt; 18 KB</summary>
+      <title>S-8 POS  - Securities to be offered to employees in employee benefit plans, post-effective amendments</title>
+      <updated>2023-04-27T09:58:08-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-050838</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-04-27</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923050838/0001104659-23-050838-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>23852328</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>5 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-050838</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923050838/0001104659-23-050838-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-04-27 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-050838 &lt;b&gt;Size:&lt;/b&gt; 5 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-04-27T09:30:28-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-number>0001102598-23-000016</accession-number>
+        <act>34</act>
+        <amend>[Amend]</amend>
+        <file-number>005-42418</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=005-42418&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-04-25</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110259823000016/0001102598-23-000016-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <film-number>23845854</film-number>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>20 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001102598-23-000016</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110259823000016/0001102598-23-000016-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-04-25 &lt;b&gt;AccNo:&lt;/b&gt; 0001102598-23-000016 &lt;b&gt;Size:&lt;/b&gt; 20 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2023-04-25T17:16:25-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-049664</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-04-25</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923049664/0001104659-23-049664-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23845358</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-049664</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923049664/0001104659-23-049664-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-04-25 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-049664 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-04-25T16:34:11-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4/A" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-049657</accession-number>
+        <act>34</act>
+        <amend>[Amend]</amend>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-04-25</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923049657/0001104659-23-049657-index.htm</filing-href>
+        <filing-type>4/A</filing-type>
+        <film-number>23845312</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-049657</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923049657/0001104659-23-049657-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-04-25 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-049657 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4/A [Amend]  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-04-25T16:31:51-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-046737</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-04-18</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923046737/0001104659-23-046737-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23827224</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-046737</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923046737/0001104659-23-046737-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-04-18 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-046737 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-04-18T16:31:24-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-043184</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-04-07</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923043184/0001104659-23-043184-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23809171</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-043184</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923043184/0001104659-23-043184-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-04-07 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-043184 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-04-07T17:00:36-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-041595</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-04-04</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923041595/0001104659-23-041595-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23799014</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>20 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-041595</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923041595/0001104659-23-041595-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-04-04 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-041595 &lt;b&gt;Size:&lt;/b&gt; 20 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-04-04T17:02:02-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-040429</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-04-03</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923040429/0001104659-23-040429-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>23790253</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>509 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-040429</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923040429/0001104659-23-040429-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-04-03 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-040429 &lt;b&gt;Size:&lt;/b&gt; 509 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-04-03T06:00:57-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-040276</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-03-31</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923040276/0001104659-23-040276-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23788914</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-040276</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923040276/0001104659-23-040276-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-03-31 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-040276 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-03-31T17:00:26-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-number>0001102598-23-000014</accession-number>
+        <act>34</act>
+        <amend>[Amend]</amend>
+        <file-number>005-42418</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=005-42418&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-03-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110259823000014/0001102598-23-000014-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <film-number>23760730</film-number>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>20 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001102598-23-000014</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110259823000014/0001102598-23-000014-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-03-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001102598-23-000014 &lt;b&gt;Size:&lt;/b&gt; 20 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2023-03-24T17:11:21-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-036652</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-03-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923036652/0001104659-23-036652-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23760328</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-036652</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923036652/0001104659-23-036652-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-03-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-036652 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-03-24T16:33:31-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="IRANNOTICE" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-036498</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-03-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923036498/0001104659-23-036498-index.htm</filing-href>
+        <filing-type>IRANNOTICE</filing-type>
+        <film-number>23758853</film-number>
+        <form-name>Notice of disclosure filed pursuant to Section 219 of the Iran Threat Reduction and Syria Human Rights Act of 2012 (Exchange Act Section 13(r)).</form-name>
+        <size>19 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-036498</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923036498/0001104659-23-036498-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-03-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-036498 &lt;b&gt;Size:&lt;/b&gt; 19 KB</summary>
+      <title>IRANNOTICE  - Notice of disclosure filed pursuant to Section 219 of the Iran Threat Reduction and Syria Human Rights Act of 2012 (Exchange Act Section 13(r)).</title>
+      <updated>2023-03-24T12:19:33-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="20-F" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-036495</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-03-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923036495/0001104659-23-036495-index.htm</filing-href>
+        <filing-type>20-F</filing-type>
+        <film-number>23758823</film-number>
+        <form-name>Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</form-name>
+        <size>227 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=879764&amp;accession_number=0001104659-23-036495&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-036495</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923036495/0001104659-23-036495-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-03-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-036495 &lt;b&gt;Size:&lt;/b&gt; 227 MB</summary>
+      <title>20-F  - Annual and transition report of foreign private issuers [Sections 13 or 15(d)]</title>
+      <updated>2023-03-24T12:13:13-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-028927</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-03-06</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923028927/0001104659-23-028927-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23708511</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-028927</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923028927/0001104659-23-028927-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-03-06 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-028927 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-03-06T14:13:14-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-026957</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-03-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923026957/0001104659-23-026957-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>23689546</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>1 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-026957</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923026957/0001104659-23-026957-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-03-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-026957 &lt;b&gt;Size:&lt;/b&gt; 1 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-03-01T06:01:39-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-number>0001102598-23-000010</accession-number>
+        <act>34</act>
+        <amend>[Amend]</amend>
+        <file-number>005-42418</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=005-42418&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-02-10</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110259823000010/0001102598-23-000010-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <film-number>23611939</film-number>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>18 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001102598-23-000010</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110259823000010/0001102598-23-000010-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-02-10 &lt;b&gt;AccNo:&lt;/b&gt; 0001102598-23-000010 &lt;b&gt;Size:&lt;/b&gt; 18 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2023-02-10T16:11:39-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-012205</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-02-08</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923012205/0001104659-23-012205-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>23597277</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>1 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-012205</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923012205/0001104659-23-012205-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-02-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-012205 &lt;b&gt;Size:&lt;/b&gt; 1 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-02-08T09:10:15-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-008887</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-02-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923008887/0001104659-23-008887-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>23574618</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>301 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-008887</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923008887/0001104659-23-008887-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-02-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-008887 &lt;b&gt;Size:&lt;/b&gt; 301 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-02-01T06:01:27-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13G/A" />
+      <content type="text/xml">
+        <accession-number>0001306550-23-005961</accession-number>
+        <act>34</act>
+        <amend>[Amend]</amend>
+        <file-number>005-42418</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=005-42418&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-02-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000130655023005961/0001306550-23-005961-index.htm</filing-href>
+        <filing-type>SC 13G/A</filing-type>
+        <film-number>23573978</film-number>
+        <form-name>Statement of acquisition of beneficial ownership by individuals</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001306550-23-005961</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000130655023005961/0001306550-23-005961-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-02-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001306550-23-005961 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>SC 13G/A [Amend]  - Statement of acquisition of beneficial ownership by individuals</title>
+      <updated>2023-01-31T17:52:10-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-002752</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-01-10</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923002752/0001104659-23-002752-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23521510</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-002752</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923002752/0001104659-23-002752-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-01-10 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-002752 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-01-10T16:31:52-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-000881</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-01-04</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923000881/0001104659-23-000881-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>23507008</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>17 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-000881</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923000881/0001104659-23-000881-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-01-04 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-000881 &lt;b&gt;Size:&lt;/b&gt; 17 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2023-01-04T16:32:09-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-23-000015</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2023-01-03</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465923000015/0001104659-23-000015-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>23500039</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>306 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-23-000015</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465923000015/0001104659-23-000015-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2023-01-03 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-23-000015 &lt;b&gt;Size:&lt;/b&gt; 306 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2023-01-03T06:02:31-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-126988</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-12-14</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922126988/0001104659-22-126988-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>221462519</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>13 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-126988</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922126988/0001104659-22-126988-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-12-14 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-126988 &lt;b&gt;Size:&lt;/b&gt; 13 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2022-12-14T16:31:15-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-126633</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-12-13</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922126633/0001104659-22-126633-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>221460072</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>13 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-126633</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922126633/0001104659-22-126633-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-12-13 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-126633 &lt;b&gt;Size:&lt;/b&gt; 13 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2022-12-13T16:30:43-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-124902</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-12-06</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922124902/0001104659-22-124902-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>221448159</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>13 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-124902</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922124902/0001104659-22-124902-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-12-06 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-124902 &lt;b&gt;Size:&lt;/b&gt; 13 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2022-12-06T16:31:34-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-123462</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-12-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922123462/0001104659-22-123462-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>221437423</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>598 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-123462</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922123462/0001104659-22-123462-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-12-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-123462 &lt;b&gt;Size:&lt;/b&gt; 598 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-12-01T08:15:13-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-121246</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-11-22</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922121246/0001104659-22-121246-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>221410889</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>13 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-121246</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922121246/0001104659-22-121246-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-11-22 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-121246 &lt;b&gt;Size:&lt;/b&gt; 13 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2022-11-22T16:32:40-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-115447</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-11-07</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922115447/0001104659-22-115447-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>221365946</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-115447</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922115447/0001104659-22-115447-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-11-07 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-115447 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2022-11-07T16:32:34-05:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13D/A" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-113268</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>2022-11-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922113268/0001104659-22-113268-index.htm</filing-href>
+        <filing-type>SC 13D/A</filing-type>
+        <form-name>General statement of acquisition of beneficial ownership</form-name>
+        <size>57 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-113268</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922113268/0001104659-22-113268-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-11-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-113268 &lt;b&gt;Size:&lt;/b&gt; 57 KB</summary>
+      <title>SC 13D/A [Amend]  - General statement of acquisition of beneficial ownership</title>
+      <updated>2022-11-01T10:55:23-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-112144</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-10-28</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922112144/0001104659-22-112144-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>221338881</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>4 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-112144</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922112144/0001104659-22-112144-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-10-28 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-112144 &lt;b&gt;Size:&lt;/b&gt; 4 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-10-28T06:05:16-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-111779</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-10-27</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922111779/0001104659-22-111779-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>221335090</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>1 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-111779</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922111779/0001104659-22-111779-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-10-27 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-111779 &lt;b&gt;Size:&lt;/b&gt; 1 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-10-27T09:09:38-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-110931</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-10-24</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922110931/0001104659-22-110931-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>221326326</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-110931</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922110931/0001104659-22-110931-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-10-24 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-110931 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2022-10-24T16:31:24-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-108104</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-10-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922108104/0001104659-22-108104-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>221307144</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>13 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-108104</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922108104/0001104659-22-108104-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-10-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-108104 &lt;b&gt;Size:&lt;/b&gt; 13 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2022-10-12T16:31:07-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-105886</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-10-04</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922105886/0001104659-22-105886-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>221292203</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-105886</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922105886/0001104659-22-105886-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-10-04 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-105886 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2022-10-04T16:32:32-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-104291</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-09-30</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922104291/0001104659-22-104291-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>221282103</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>824 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-104291</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922104291/0001104659-22-104291-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-09-30 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-104291 &lt;b&gt;Size:&lt;/b&gt; 824 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-09-30T06:09:29-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-103322</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-09-27</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922103322/0001104659-22-103322-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>221271501</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-103322</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922103322/0001104659-22-103322-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-09-27 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-103322 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2022-09-27T16:31:54-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="3" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-100445</accession-number>
+        <act>34</act>
+        <file-number>001-36002</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-36002&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-09-15</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922100445/0001104659-22-100445-index.htm</filing-href>
+        <filing-type>3</filing-type>
+        <film-number>221245931</film-number>
+        <form-name>Initial statement of beneficial ownership of securities</form-name>
+        <size>16 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-100445</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922100445/0001104659-22-100445-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-09-15 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-100445 &lt;b&gt;Size:&lt;/b&gt; 16 KB</summary>
+      <title>3  - Initial statement of beneficial ownership of securities</title>
+      <updated>2022-09-15T16:14:32-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13D" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-100444</accession-number>
+        <filing-date>2022-09-15</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922100444/0001104659-22-100444-index.htm</filing-href>
+        <filing-type>SC 13D</filing-type>
+        <form-name>General statement of acquisition of beneficial ownership</form-name>
+        <size>222 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-100444</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922100444/0001104659-22-100444-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-09-15 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-100444 &lt;b&gt;Size:&lt;/b&gt; 222 KB</summary>
+      <title>SC 13D  - General statement of acquisition of beneficial ownership</title>
+      <updated>2022-09-15T16:12:40-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13D/A" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-100440</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>2022-09-15</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922100440/0001104659-22-100440-index.htm</filing-href>
+        <filing-type>SC 13D/A</filing-type>
+        <form-name>General statement of acquisition of beneficial ownership</form-name>
+        <size>193 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-100440</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922100440/0001104659-22-100440-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-09-15 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-100440 &lt;b&gt;Size:&lt;/b&gt; 193 KB</summary>
+      <title>SC 13D/A [Amend]  - General statement of acquisition of beneficial ownership</title>
+      <updated>2022-09-15T16:10:55-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="4" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-100059</accession-number>
+        <act>34</act>
+        <file-number>001-34166</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-34166&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-09-14</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922100059/0001104659-22-100059-index.htm</filing-href>
+        <filing-type>4</filing-type>
+        <film-number>221243475</film-number>
+        <form-name>Statement of changes in beneficial ownership of securities</form-name>
+        <size>15 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-100059</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922100059/0001104659-22-100059-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-09-14 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-100059 &lt;b&gt;Size:&lt;/b&gt; 15 KB</summary>
+      <title>4  - Statement of changes in beneficial ownership of securities</title>
+      <updated>2022-09-14T16:44:36-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-096218</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-08-31</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922096218/0001104659-22-096218-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>221216198</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>649 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-096218</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922096218/0001104659-22-096218-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-08-31 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-096218 &lt;b&gt;Size:&lt;/b&gt; 649 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-08-31T06:02:45-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13D/A" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-092514</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>2022-08-18</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922092514/0001104659-22-092514-index.htm</filing-href>
+        <filing-type>SC 13D/A</filing-type>
+        <form-name>General statement of acquisition of beneficial ownership</form-name>
+        <size>187 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-092514</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922092514/0001104659-22-092514-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-08-18 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-092514 &lt;b&gt;Size:&lt;/b&gt; 187 KB</summary>
+      <title>SC 13D/A [Amend]  - General statement of acquisition of beneficial ownership</title>
+      <updated>2022-08-18T14:52:57-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-083841</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-07-29</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922083841/0001104659-22-083841-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>221117118</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>5 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-083841</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922083841/0001104659-22-083841-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-29 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-083841 &lt;b&gt;Size:&lt;/b&gt; 5 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-07-29T06:01:13-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-083444</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-07-28</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922083444/0001104659-22-083444-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>221112887</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>16 MB</size>
+        <xbrl_href>https://www.sec.gov/cgi-bin/viewer?action=view&amp;cik=879764&amp;accession_number=0001104659-22-083444&amp;xbrl_type=v</xbrl_href>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-083444</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922083444/0001104659-22-083444-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-28 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-083444 &lt;b&gt;Size:&lt;/b&gt; 16 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-07-28T08:09:16-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-076444</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-07-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922076444/0001104659-22-076444-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>221059457</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>462 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-076444</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922076444/0001104659-22-076444-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-07-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-076444 &lt;b&gt;Size:&lt;/b&gt; 462 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-07-01T06:00:24-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-066800</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-06-01</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922066800/0001104659-22-066800-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>22985845</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>836 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-066800</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922066800/0001104659-22-066800-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-06-01 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-066800 &lt;b&gt;Size:&lt;/b&gt; 836 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-06-01T06:00:46-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SD" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-066093</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-05-31</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922066093/0001104659-22-066093-index.htm</filing-href>
+        <filing-type>SD</filing-type>
+        <film-number>22980225</film-number>
+        <form-name>Specialized disclosure report</form-name>
+        <size>429 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-066093</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922066093/0001104659-22-066093-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-05-31 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-066093 &lt;b&gt;Size:&lt;/b&gt; 429 KB</summary>
+      <title>SD  - Specialized disclosure report</title>
+      <updated>2022-05-31T06:00:57-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="SC 13D/A" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-064488</accession-number>
+        <amend>[Amend]</amend>
+        <filing-date>2022-05-25</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922064488/0001104659-22-064488-index.htm</filing-href>
+        <filing-type>SC 13D/A</filing-type>
+        <form-name>General statement of acquisition of beneficial ownership</form-name>
+        <size>84 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-064488</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922064488/0001104659-22-064488-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-05-25 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-064488 &lt;b&gt;Size:&lt;/b&gt; 84 KB</summary>
+      <title>SC 13D/A [Amend]  - General statement of acquisition of beneficial ownership</title>
+      <updated>2022-05-25T09:07:29-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-053966</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-05-02</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922053966/0001104659-22-053966-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>22879188</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>6 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-053966</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922053966/0001104659-22-053966-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-05-02 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-053966 &lt;b&gt;Size:&lt;/b&gt; 6 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-05-02T06:01:14-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-051830</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-04-28</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922051830/0001104659-22-051830-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>22862891</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>1 MB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-051830</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922051830/0001104659-22-051830-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-04-28 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-051830 &lt;b&gt;Size:&lt;/b&gt; 1 MB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-04-28T10:23:22-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="S-8" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-045332</accession-number>
+        <act>33</act>
+        <file-number>333-264261</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-264261&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-04-13</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922045332/0001104659-22-045332-index.htm</filing-href>
+        <filing-type>S-8</filing-type>
+        <film-number>22823991</film-number>
+        <form-name>Securities to be offered to employees in employee benefit plans</form-name>
+        <size>203 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-045332</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922045332/0001104659-22-045332-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-04-13 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-045332 &lt;b&gt;Size:&lt;/b&gt; 203 KB</summary>
+      <title>S-8  - Securities to be offered to employees in employee benefit plans</title>
+      <updated>2022-04-13T10:57:00-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="S-8 POS" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-045330</accession-number>
+        <act>33</act>
+        <file-number>333-255455</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=333-255455&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-04-13</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922045330/0001104659-22-045330-index.htm</filing-href>
+        <filing-type>S-8 POS</filing-type>
+        <film-number>22823981</film-number>
+        <form-name>Securities to be offered to employees in employee benefit plans, post-effective amendments</form-name>
+        <size>18 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-045330</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922045330/0001104659-22-045330-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-04-13 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-045330 &lt;b&gt;Size:&lt;/b&gt; 18 KB</summary>
+      <title>S-8 POS  - Securities to be offered to employees in employee benefit plans, post-effective amendments</title>
+      <updated>2022-04-13T10:50:13-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="6-K" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-041973</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-04-04</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922041973/0001104659-22-041973-index.htm</filing-href>
+        <filing-type>6-K</filing-type>
+        <film-number>22800392</film-number>
+        <form-name>Report of foreign issuer [Rules 13a-16 and 15d-16]</form-name>
+        <size>422 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-041973</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922041973/0001104659-22-041973-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-04-04 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-041973 &lt;b&gt;Size:&lt;/b&gt; 422 KB</summary>
+      <title>6-K  - Report of foreign issuer [Rules 13a-16 and 15d-16]</title>
+      <updated>2022-04-04T07:46:10-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="IRANNOTICE" />
+      <content type="text/xml">
+        <accession-number>0001104659-22-037976</accession-number>
+        <act>34</act>
+        <file-number>001-10888</file-number>
+        <file-number-href>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;filenum=001-10888&amp;owner=include&amp;count=100</file-number-href>
+        <filing-date>2022-03-25</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/879764/000110465922037976/0001104659-22-037976-index.htm</filing-href>
+        <filing-type>IRANNOTICE</filing-type>
+        <film-number>22769657</film-number>
+        <form-name>Notice of disclosure filed pursuant to Section 219 of the Iran Threat Reduction and Syria Human Rights Act of 2012 (Exchange Act Section 13(r)).</form-name>
+        <size>14 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001104659-22-037976</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/879764/000110465922037976/0001104659-22-037976-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2022-03-25 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-22-037976 &lt;b&gt;Size:&lt;/b&gt; 14 KB</summary>
+      <title>IRANNOTICE  - Notice of disclosure filed pursuant to Section 219 of the Iran Threat Reduction and Syria Human Rights Act of 2012 (Exchange Act Section 13(r)).</title>
+      <updated>2022-03-25T12:49:40-04:00</updated>
+    </entry>
+    <id>https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000879764</id>
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=000879764&amp;owner=include&amp;start=0&amp;count=100" rel="alternate" type="text/html" />
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=000879764&amp;owner=include&amp;start=0&amp;count=100&amp;output=atom" rel="self" type="application/atom+xml" />
+    <link href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000879764&amp;type=&amp;datea=&amp;dateb=&amp;owner=include&amp;count=100&amp;output=atom&amp;start=100" rel="next" type="application/atom+xml" />
+    <title>TotalEnergies SE  (0000879764)</title>
+    <updated>2023-12-20T09:48:38-05:00</updated>
+  </feed>

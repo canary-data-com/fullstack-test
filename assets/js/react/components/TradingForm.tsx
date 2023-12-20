@@ -8,29 +8,25 @@ interface TradingFormProps {
 
 interface FormData {
 	selectedCompany: string;
-	transactionPerson: string;
-	sharesAmount: number;
-	jobTitle: string;
 }
 
 const TradingForm: React.FC<TradingFormProps> = ({ onSubmit }) => {
 	const [formData, setFormData] = useState<FormData>({
 		selectedCompany: '',
-		transactionPerson: '',
-		sharesAmount: 0,
-		jobTitle: '',
 	});
 	const [result, setResult] = useState<FormData | null>(null);
 	const [error, setError] = useState<string | null>(null);
-	const [companies, setCompanies] = useState<[]>([]); // State to hold the list of companies
+	const [companies, setCompanies] = useState<string[]>([]); // State to hold the list of companies
+	const [suggestions, setSuggestions] = useState<string[]>([]); // Suggestions for autocomplete
 
 	useEffect(() => {
 		// Fetch the list of companies when the component mounts
 		const fetchCompanies = async () => {
 			try {
 				const response = await axios.get('/api/companies'); // Replace with your API endpoint
-				console.log(response.data, 'response')
-				setCompanies(response.data);
+				console.log('API Response:', response.data); // Log the response data
+				const companyTickers = Object.keys(response.data); // Extract company tickers from object keys
+				setCompanies(companyTickers);
 			} catch (error) {
 				console.error('API Error:', error);
 				setError('Error fetching company data. Please try again.');
@@ -38,11 +34,23 @@ const TradingForm: React.FC<TradingFormProps> = ({ onSubmit }) => {
 		};
 
 		fetchCompanies();
-	}, []); // Empty dependency array ensures this effect runs once when the component mounts
+	}, []);
 
-	const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+	const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 		const { name, value } = event.target;
 		setFormData({ ...formData, [name]: value });
+
+		// Filter and set suggestions based on user input
+		const input = value.trim().toLowerCase();
+		const matchingCompanies = companies.filter((company) =>
+			company.toLowerCase().includes(input)
+		);
+		setSuggestions(matchingCompanies);
+	};
+
+	const handleSuggestionClick = (suggestion: string) => {
+		setFormData({ ...formData, selectedCompany: suggestion });
+		setSuggestions([]); // Clear suggestions when a suggestion is selected
 	};
 
 	const handleSubmit = async (event: React.FormEvent) => {
@@ -55,7 +63,7 @@ const TradingForm: React.FC<TradingFormProps> = ({ onSubmit }) => {
 			setError(null);
 		} catch (error) {
 			console.error('API Error:', error);
-			setError('Error in the request. Please try again.');
+			setError("Either the Ticker does not exists, or there's an error in the request. Please try again with a valid ticker.");
 		}
 	};
 
@@ -64,66 +72,31 @@ const TradingForm: React.FC<TradingFormProps> = ({ onSubmit }) => {
 			<form onSubmit={handleSubmit} className="w-full max-w-md mx-auto p-4">
 				<div className="mb-4">
 					<label htmlFor="selectedCompany" className="block text-gray-700 font-semibold mb-2">
-						Select Company:
+						Type a company ticker:
 					</label>
-					<select
+					<input
+						type="text"
 						id="selectedCompany"
 						name="selectedCompany"
 						value={formData.selectedCompany}
 						onChange={handleChange}
 						className="w-full p-2 rounded border border-gray-400 focus:outline-none focus:border-fuchsia-500"
 						required
-					>
-						<option value="">Select a Company</option>
-						{companies.map((company) => (
-							<option key={company} value={company}>
-								{company}
-							</option>
-						))}
-					</select>
-				</div>
-				<div className="mb-4">
-					<label htmlFor="transactionPerson" className="block text-gray-700 font-semibold mb-2">
-						Transaction Person:
-					</label>
-					<input
-						type="text"
-						id="transactionPerson"
-						name="transactionPerson"
-						value={formData.transactionPerson}
-						onChange={handleChange}
-						placeholder='Enter the name of the person you wish to be responsible for the transaction'
-						className="w-full p-2 rounded border border-gray-400 focus:outline-none focus:border-fuchsia-500"
-						required
+						autoComplete="off"
 					/>
-				</div>
-				<div className="mb-4">
-					<label htmlFor="sharesAmount" className="block text-gray-700 font-semibold mb-2">
-						Shares Amount:
-					</label>
-					<input
-						type="number"
-						id="sharesAmount"
-						name="sharesAmount"
-						value={formData.sharesAmount}
-						onChange={handleChange}
-						className="w-full p-2 rounded border border-gray-400 focus:outline-none focus:border-fuchsia-500"
-						required
-					/>
-				</div>
-				<div className="mb-4">
-					<label htmlFor="jobTitle" className="block text-gray-700 font-semibold mb-2">
-						Job Title:
-					</label>
-					<input
-						type="text"
-						id="jobTitle"
-						name="jobTitle"
-						value={formData.jobTitle}
-						onChange={handleChange}
-						className="w-full p-2 rounded border border-gray-400 focus:outline-none focus:border-fuchsia-500"
-						required
-					/>
+					{suggestions.length > 0 && (
+						<ul className="bg-white border border-gray-300 mt-1 absolute z-10 w-full">
+							{suggestions.map((suggestion) => (
+								<li
+									key={suggestion}
+									className="cursor-pointer px-4 py-2 hover:bg-gray-200"
+									onClick={() => handleSuggestionClick(suggestion)}
+								>
+									{suggestion}
+								</li>
+							))}
+						</ul>
+					)}
 				</div>
 				<div className="text-right mt-4">
 					<button
@@ -134,8 +107,8 @@ const TradingForm: React.FC<TradingFormProps> = ({ onSubmit }) => {
 					</button>
 				</div>
 			</form>
-			{error && <p className="text-red-600">{error}</p>} {/* Display error message if present */}
-			{result && <TradingReturn result={result} />} {/* Render the result component */}
+			{error && <p className="text-red-600">{error}</p>}
+			{result && <TradingReturn result={result} />}
 		</div>
 	);
 };
