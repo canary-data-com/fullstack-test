@@ -7,6 +7,8 @@ defmodule InsiderTradingReportServiceWeb.Router do
 
   scope "/api", InsiderTradingReportServiceWeb do
     pipe_through :api
+
+    get "/:ticker/transactions", InsiderController, :show
   end
 
   # Enable LiveDashboard in development
