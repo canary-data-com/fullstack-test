@@ -8,5 +8,4 @@ defmodule InsiderTradingReportServiceWeb.InsiderController do
       data: Tradings.insiders(ticker)
     })
   end
-
 end
