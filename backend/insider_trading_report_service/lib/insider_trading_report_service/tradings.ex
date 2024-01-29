@@ -1,7 +1,7 @@
 defmodule InsiderTradingReportService.Tradings do
-  alias InsiderTradingReportService.Tradings.QuoteSummary
+  alias InsiderTradingReportService.Tradings.YahooFinanceAPI
 
-  def insiders(ticker) do
-    QuoteSummary.insiders(ticker)
+  def insider_transactions(ticker) do
+    YahooFinanceAPI.insider_transactions(ticker)
   end
 end

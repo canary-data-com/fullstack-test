@@ -10,7 +10,8 @@ defmodule InsiderTradingReportService.Application do
     children = [
       InsiderTradingReportServiceWeb.Telemetry,
       InsiderTradingReportService.Repo,
-      {DNSCluster, query: Application.get_env(:insider_trading_report_service, :dns_cluster_query) || :ignore},
+      {DNSCluster,
+       query: Application.get_env(:insider_trading_report_service, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: InsiderTradingReportService.PubSub},
       # Start a worker by calling: InsiderTradingReportService.Worker.start_link(arg)
       # {InsiderTradingReportService.Worker, arg},
