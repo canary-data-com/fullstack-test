@@ -11,8 +11,6 @@ defmodule InsiderTradingReportServiceWeb.InsiderController do
         |> Map.delete(:__meta__)
       end)
 
-    json(conn, %{
-      data: data
-    })
+    json(conn, data)
   end
 end
