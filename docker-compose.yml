@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:alpine3.19
+    environment:
+      POSTGRES_DB: insider_trading_report_service_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+  phoenix-api:
+    build:
+      context: ./backend/insider_trading_report_service
+    ports:
+      - "4000:4000"
+    depends_on:
+      - postgres
+    env_file:
+      - dev.env
+
+  nextjs-app:
+    build:
+      context: ./frontend/canary-data-insiders
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
