@@ -16,7 +16,7 @@ defmodule InsiderTradingReportService.Tradings.YahooFinanceAPI do
              integration_type: "http",
              endpoint: endpoint,
              status: to_string(200),
-             tags: IntegrationLog.insider_transactions_tags()
+             tags: IntegrationLog.insider_transactions_tags(ticker)
            }) do
       result =
         content["quoteSummary"]["result"]

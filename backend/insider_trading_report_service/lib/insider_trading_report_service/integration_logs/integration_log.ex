@@ -20,5 +20,5 @@ defmodule InsiderTradingReportService.IntegrationLogs.IntegrationLog do
     |> validate_required([:integration_type, :endpoint, :status, :tags])
   end
 
-  def insider_transactions_tags, do: "insider_transactions"
+  def insider_transactions_tags(tag), do: "insider_transactions_#{tag}"
 end

@@ -88,7 +88,7 @@ defmodule InsiderTradingReportService.Insiders do
     today = Date.utc_today()
 
     last_update_day =
-      case IntegrationLogs.last_log_by_tags(IntegrationLog.insider_transactions_tags()) do
+      case IntegrationLogs.last_log_by_tags(IntegrationLog.insider_transactions_tags(ticker)) do
         nil -> Date.add(today, -1)
         last_log -> DateTime.to_date(last_log.inserted_at)
       end
