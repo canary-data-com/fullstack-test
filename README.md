@@ -36,7 +36,7 @@ The expected response will be the ticker/company, the person who did the transac
 
 #### Solution implementation:
 
-![Solution Diagram](fullstack_test_solution.png)
+![Solution Diagram](fullstack_test_diagram.png)
 
 ##### Just to run locally:
 
