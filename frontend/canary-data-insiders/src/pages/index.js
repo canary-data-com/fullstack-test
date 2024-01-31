@@ -4,57 +4,31 @@ import SearchBar from "@/components/SearchBar";
 import TradingTable from "@/components/TradingTable";
 import axios from 'axios';
 
-const TRADINGS = [
-  {
-      "id": "3da1bcbf-659c-4af8-ae55-fd86be997560",
-      "name": "KONDO CHRISTOPHER",
-      "ticker": "AAPL",
-      "inserted_at": "2024-01-29T10:18:32Z",
-      "updated_at": "2024-01-29T10:18:32Z",
-      "amount": "1058496",
-      "market_cap": "2975178948608",
-      "market_cap_percentage": 0.0001,
-      "shares": 5513.0,
-      "startDate": "2023-11-29",
-      "job_title": "Officer"
-  },
-  {
-      "id": "1858fdf1-41d7-4956-9201-e0a0a16ff087",
-      "name": "ADAMS KATHERINE L",
-      "ticker": "AAPL",
-      "inserted_at": "2024-01-29T10:18:32Z",
-      "updated_at": "2024-01-29T10:18:32Z",
-      "amount": "23305748",
-      "market_cap": "2975178948608",
-      "market_cap_percentage": 0.0008,
-      "shares": 123448.0,
-      "startDate": "2023-11-17",
-      "job_title": "General Counsel"
-  },
-  {
-      "id": "d871b968-27ac-49eb-9cd9-98b37ed6dcc7",
-      "name": "ADAMS KATHERINE L",
-      "ticker": "AAPL",
-      "inserted_at": "2024-01-29T10:18:32Z",
-      "updated_at": "2024-01-29T10:18:32Z",
-      "amount": "0",
-      "market_cap": "2975178948608",
-      "market_cap_percentage": 0.0,
-      "shares": 123448.0,
-      "startDate": "2023-11-16",
-      "job_title": "General Counsel"
-  },
-]
-
 export default function Home() {
   const [filterTicker, setFilterTicker] = useState('');
   const [tradingList, setTradingList] = useState([]);
+  const [errorMessage, setErrorMessage] = useState('');
 
   async function handleSearchClick(e) {
     e.preventDefault();
+
+    setTradingList([])
+
+    if(filterTicker.length === 0) {
+      setErrorMessage("Invalid ticker");
+      return
+    }
     
-    const response = await axios.get(`http://localhost:4000/api/insiders/${filterTicker}/transactions`);
-    setTradingList(response.data)
+    try {
+      const response = await axios.get(`http://localhost:4000/api/insiders/${filterTicker}/transactions`);
+      setTradingList(response.data);
+      setErrorMessage('')
+
+    } catch (error) {
+      console.log(error)
+      setErrorMessage(error.message);
+    }
+    
   }
 
   return (
@@ -78,9 +52,13 @@ export default function Home() {
         </div>
       </nav>
       <main className="container">
-        <div className="row">
-          <TradingTable tradings={tradingList} />
+        {errorMessage && (
+          <div className="alert alert-danger" role="alert">
+          {errorMessage}
         </div>
+        )}
+        
+        <TradingTable tradings={tradingList} />
       </main>
     </>
   );
