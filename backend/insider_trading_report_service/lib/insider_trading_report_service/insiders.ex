@@ -44,7 +44,6 @@ defmodule InsiderTradingReportService.Insiders do
     case Tradings.insider_transactions(ticker) do
       {:ok, result} ->
         result
-        |> prepare_to_insert
         |> create_many_insider_transactions
 
         list_insider_transactions_by_ticker(ticker, true)
@@ -63,29 +62,14 @@ defmodule InsiderTradingReportService.Insiders do
   end
 
   def create_many_insider_transactions(entries) do
-    timestamp =
-      DateTime.utc_now()
-      |> DateTime.truncate(:second)
-
-    placeholders = %{timestamp: timestamp}
-
     entries =
       entries
-      |> Enum.map(fn entry ->
-        entry
-        |> Map.put(
-          :inserted_at,
-          {:placeholder, :timestamp}
-        )
-        |> Map.put(
-          :updated_at,
-          {:placeholder, :timestamp}
-        )
-      end)
+      |> Enum.map(&InsiderTransaction.transform(%InsiderTransaction{}, &1))
+      |> Enum.map(&InsiderTransaction.set_timestamps/1)
+      |> Enum.map(&InsiderTransaction.to_map/1)
 
     InsiderTransaction
     |> Repo.insert_all(entries,
-      placeholders: placeholders,
       on_conflict: :nothing,
       conflict_target: [:startDate, :ticker, :name]
     )
@@ -116,31 +100,5 @@ defmodule InsiderTradingReportService.Insiders do
       _ ->
         refresh_insider_transactions(ticker)
     end
-  end
-
-  defp prepare_to_insert(data) do
-    data
-    |> Enum.map(fn tr ->
-      {shares, _} = Float.parse(to_string(tr.shares))
-      {:ok, startDate} = Date.from_iso8601(tr.startDate)
-      %{tr | shares: shares, startDate: startDate}
-    end)
-    |> Enum.map(fn tr ->
-      Map.put(
-        tr,
-        :market_cap_percentage,
-        calculate_market_cap_percentage(tr.amount, tr.market_cap)
-      )
-    end)
-  end
-
-  defp calculate_market_cap_percentage(amount, market_cap)
-       when is_nil(amount) or is_nil(market_cap) do
-    nil
-  end
-
-  defp calculate_market_cap_percentage(amount, market_cap) do
-    result = amount / market_cap * 100
-    Float.ceil(result, 4)
   end
 end
