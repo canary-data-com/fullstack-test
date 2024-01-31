@@ -32,3 +32,21 @@ The expected response will be the ticker/company, the person who did the transac
 - https://finance.yahoo.com/quote/AAPL?p=AAPL
 - https://query2.finance.yahoo.com/v7/finance/options/AAPL
 - https://github.com/ranaroussi/yfinance/blob/8975689bd19f96ea4655688611b0d853822eb5ec/yfinance/ticker.py
+
+
+#### Solution implementation:
+
+##### Just run locally:
+
+###### Requirements:
+
+* Docker version >= 24.0.7
+* Docker Compose version >= v2.23.3 (usually it already is builtin in Docker)
+
+###### Run
+
+In the fullstack-test directory run:
+
+        $ docker-compose up --build
+
+After, access the http://localhost:3000
