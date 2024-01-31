@@ -36,7 +36,9 @@ The expected response will be the ticker/company, the person who did the transac
 
 #### Solution implementation:
 
-##### Just run locally:
+![Solution Diagram](fullstack_test_solution.png)
+
+##### Just to run locally:
 
 ###### Requirements:
 
@@ -49,4 +51,4 @@ In the fullstack-test directory run:
 
         $ docker-compose up --build
 
-After, access the http://localhost:3000
+After, access to the http://localhost:3000
