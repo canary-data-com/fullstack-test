@@ -52,3 +52,15 @@ In the fullstack-test directory run:
         $ docker-compose up --build
 
 After, access to the http://localhost:3000
+
+###### Backlog (improvements):
+
+* Fallback for missing data like market cap and shares amount.
+
+* Implementation of circuit breacker pattern at integration to Yahoo Finance API.
+
+* Implements pagination for the API and handle it at frontend.
+
+* Improve the frontend code, breaking things in more components.
+
+* Write more tests.
