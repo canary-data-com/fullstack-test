@@ -5,9 +5,11 @@ defmodule InsiderTradingReportService.Insiders do
 
   import Ecto.Query, warn: false
   require Logger
+  alias InsiderTradingReportService.IntegrationLogs
   alias InsiderTradingReportService.Tradings
   alias InsiderTradingReportService.Repo
   alias InsiderTradingReportService.Insiders.InsiderTransaction
+  alias InsiderTradingReportService.IntegrationLogs.IntegrationLog
 
   def list_insider_transactions do
     Repo.all(InsiderTransaction)
@@ -16,15 +18,7 @@ defmodule InsiderTradingReportService.Insiders do
   def list_insider_transactions_by_ticker(ticker, cached \\ false)
 
   def list_insider_transactions_by_ticker(ticker, cached) when not cached do
-    last_updated =
-      InsiderTransaction
-      |> last(:updated_at)
-      |> Repo.one()
-
-    case last_updated do
-      nil -> refresh_insider_transactions(ticker)
-      last_transaction -> verify_last_update(ticker, last_transaction)
-    end
+    verify_last_update(ticker)
   end
 
   def list_insider_transactions_by_ticker(ticker, cached) when cached do
@@ -89,9 +83,15 @@ defmodule InsiderTradingReportService.Insiders do
     InsiderTransaction.changeset(insider_transaction, attrs)
   end
 
-  defp verify_last_update(ticker, last_transaction) do
-    last_update_day = DateTime.to_date(last_transaction.updated_at)
+  defp verify_last_update(ticker) do
+    # last_update_day = DateTime.to_date(last_transaction.updated_at)
     today = Date.utc_today()
+
+    last_update_day =
+      case IntegrationLogs.last_log_by_tags(IntegrationLog.insider_transactions_tags()) do
+        nil -> Date.add(today, -1)
+        last_log -> DateTime.to_date(last_log.inserted_at)
+      end
 
     case Date.compare(last_update_day, today) do
       :eq ->

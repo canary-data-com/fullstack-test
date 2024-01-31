@@ -1,12 +1,23 @@
 defmodule InsiderTradingReportService.Tradings.YahooFinanceAPI do
   require Logger
 
+  alias InsiderTradingReportService.IntegrationLogs
+  alias InsiderTradingReportService.IntegrationLogs.IntegrationLog
+
   def insider_transactions(ticker) do
     Logger.info("Starting calling Yahoo API...")
+    endpoint = url(ticker)
     HTTPoison.start()
 
-    with {:ok, %{status_code: 200, body: body}} <- HTTPoison.get(url(ticker)),
-         {:ok, content} <- Jason.decode(body) do
+    with {:ok, %{status_code: 200, body: body}} <- HTTPoison.get(endpoint),
+         {:ok, content} <- Jason.decode(body),
+         {:ok, _} <-
+           IntegrationLogs.create_integration_log(%{
+             integration_type: "http",
+             endpoint: endpoint,
+             status: to_string(200),
+             tags: IntegrationLog.insider_transactions_tags()
+           }) do
       result =
         content["quoteSummary"]["result"]
         |> Enum.map(fn %{
