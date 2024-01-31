@@ -1,7 +1,7 @@
 defmodule InsiderTradingReportServiceWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :insider_trading_report_service
 
-  #FIXME for production
+  # FIXME for production
   plug CORSPlug, origin: "*"
 
   # The session will be stored in the cookie and signed,

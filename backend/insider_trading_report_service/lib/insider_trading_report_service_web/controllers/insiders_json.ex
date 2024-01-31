@@ -1,5 +1,4 @@
 defmodule InsiderTradingReportServiceWeb.InsidersJSON do
-
   def index(%{insiders_transactions: insiders_transactions}) do
     insiders_transactions
     |> Enum.map(fn tr ->
@@ -7,5 +6,4 @@ defmodule InsiderTradingReportServiceWeb.InsidersJSON do
       |> Map.delete(:__meta__)
     end)
   end
-
 end
