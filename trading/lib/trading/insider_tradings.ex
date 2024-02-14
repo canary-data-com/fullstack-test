@@ -1,11 +1,34 @@
 defmodule Trading.InsiderTradings do
+  @moduledoc """
+    This module contain functions to Fetch insider tradings.
+  """
   @ticker_url "https://www.sec.gov/files/company_tickers_exchange.json"
   @edgar_url_template "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=%s&owner=&count=100&output=atom"
   @yahoo_finance_url_template "https://finance.yahoo.com/quote/%s?p=%s"
 
   @headers [{"User-Agent", "trading/0.1.0"}, {"Accept", "*/*"}]
 
-  def list_insider_tradings(nil) do
+  @doc """
+    List insider trading based on form 3, 4 and 5 for given or random company.
+
+    ## Examples
+
+      iex> list_insider_tradings("MICROSOFT CORP")
+       [%{
+          form_type: "4",
+          job_title: "",
+          market_cap: "3.01T",
+          person: "",
+          shares: "",
+          company: "MICROSOFT CORP",
+          filing_date: "2022-09-23",
+          filing_href: "https://www.sec.gov/Archives/edgar/data/849145/000120919122051196/0001209191-22-051196-index.htm",
+          form_name: "Statement of changes in beneficial ownership of securities",
+          accession_number: "0001209191-22-051196",
+          amend: ""
+          }]
+  """
+  def list_insider_tradings(company_name) when company_name in ["", nil] do
     fetch_tickers()
     |> Enum.random()
     |> process_company()
@@ -14,7 +37,9 @@ defmodule Trading.InsiderTradings do
 
   def list_insider_tradings(company_name) do
     fetch_tickers()
-    |> Enum.filter(fn [_, name, _, _] -> company_name == name end)
+    |> Enum.filter(fn [_, name, _, _] ->
+      String.downcase(company_name) == String.downcase(name)
+    end)
     |> Enum.map(&process_company(&1))
     |> List.flatten()
   end
@@ -75,7 +100,6 @@ defmodule Trading.InsiderTradings do
       person: Floki.find(form, "content > name") |> Floki.text(),
       job_title: Floki.find(form, "content > email") |> Floki.text(),
       shares: Floki.find(form, "content > shares") |> Floki.text()
-
     }
   end
 

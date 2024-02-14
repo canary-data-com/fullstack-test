@@ -17,8 +17,8 @@ defmodule TradingWeb.Router do
   scope "/", TradingWeb do
     pipe_through :browser
 
-    # get "/", PageController, :index
-    get "/", InsiderTradingController, :index
+    get "/", PageController, :index
+    get "/insider_tradings", InsiderTradingController, :index
   end
 
   # Other scopes may use custom stacks.

@@ -50,7 +50,8 @@ defmodule Trading.MixProject do
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
       {:hackney, "~> 1.20", override: true},
-      {:httpoison, "~> 2.2"}
+      {:httpoison, "~> 2.2"},
+      {:ex_doc, "~> 0.24", only: :dev}
     ]
   end
 
