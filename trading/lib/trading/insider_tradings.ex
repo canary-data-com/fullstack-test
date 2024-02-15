@@ -2,11 +2,14 @@ defmodule Trading.InsiderTradings do
   @moduledoc """
     This module contain functions to Fetch insider tradings.
   """
+
   @ticker_url "https://www.sec.gov/files/company_tickers_exchange.json"
   @edgar_url_template "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=%s&owner=&count=100&output=atom"
   @yahoo_finance_url_template "https://finance.yahoo.com/quote/%s?p=%s"
 
   @headers [{"User-Agent", "trading/0.1.0"}, {"Accept", "*/*"}]
+
+  @http_client Application.compile_env(:trading, :insider_api, Trading.InsiderTradingClient)
 
   @doc """
     List insider trading based on form 3, 4 and 5 for given or random company.
@@ -36,17 +39,23 @@ defmodule Trading.InsiderTradings do
   end
 
   def list_insider_tradings(company_name) do
-    fetch_tickers()
-    |> Enum.filter(fn [_, name, _, _] ->
-      String.downcase(company_name) == String.downcase(name)
-    end)
-    |> Enum.map(&process_company(&1))
-    |> List.flatten()
+    case fetch_tickers() do
+      result when is_list(result) ->
+        result
+        |> Enum.filter(fn [_, name, _, _] ->
+          String.downcase(company_name) == String.downcase(name)
+        end)
+        |> Enum.map(&process_company(&1))
+        |> List.flatten()
+
+      {:error, reason} ->
+        {:error, reason}
+    end
   end
 
   defp fetch_tickers() do
     with {:ok, %HTTPoison.Response{status_code: 200, body: body}} <-
-           HTTPoison.get(@ticker_url, @headers),
+           @http_client.http_get(@ticker_url, @headers),
          {:ok, json} <- Jason.decode(body) do
       json["data"]
     else
@@ -54,7 +63,7 @@ defmodule Trading.InsiderTradings do
         {:error, "Failed to fetch tickers. Reason: #{code} Error"}
 
       {:error, reason} ->
-        {:error, "Failed to fetch JSON. Reason: #{reason}"}
+        {:error, "Failed to fetch JSON. Reason: #{inspect(reason)}"}
     end
   end
 
@@ -70,18 +79,18 @@ defmodule Trading.InsiderTradings do
     url = String.replace(@edgar_url_template, "%s", to_string(cik))
 
     with {:ok, %HTTPoison.Response{body: body}} <-
-           HTTPoison.get(url, @headers),
+           @http_client.http_get(url, @headers),
          {:ok, parsed_xml} <- Floki.parse_document(body) do
       parsed_xml
       |> Floki.find("entry")
-      |> Enum.filter(&is_insider_form(&1))
+      |> Enum.filter(&is_insider_form?(&1))
     else
       _ ->
         {:error, "Failed to fetch insider data."}
     end
   end
 
-  defp is_insider_form(form) do
+  defp is_insider_form?(form) do
     form_type = Floki.find(form, "category[term]") |> Floki.attribute("term") |> Floki.text()
     Enum.member?(["3", "4", "5"], form_type)
   end
@@ -106,7 +115,7 @@ defmodule Trading.InsiderTradings do
   defp fetch_market_cap(ticker) do
     url = String.replace(@yahoo_finance_url_template, "%s", ticker)
 
-    with {:ok, %HTTPoison.Response{body: body}} <- HTTPoison.get(url, @headers),
+    with {:ok, %HTTPoison.Response{body: body}} <- @http_client.http_get(url, @headers),
          {:ok, parsed_html} <- Floki.parse_document(body) do
       parsed_html
       |> Floki.find("td[data-test='MARKET_CAP-value']")

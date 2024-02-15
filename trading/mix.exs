@@ -7,7 +7,7 @@ defmodule Trading.MixProject do
       version: "0.1.0",
       elixir: "~> 1.12",
       elixirc_paths: elixirc_paths(Mix.env()),
-      compilers: [:gettext] ++ Mix.compilers(),
+      compilers: Mix.compilers(),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
       deps: deps()
@@ -51,7 +51,8 @@ defmodule Trading.MixProject do
       {:plug_cowboy, "~> 2.5"},
       {:hackney, "~> 1.20", override: true},
       {:httpoison, "~> 2.2"},
-      {:ex_doc, "~> 0.24", only: :dev}
+      {:ex_doc, "~> 0.24", only: :dev},
+      {:mox, "~> 1.1", only: :test}
     ]
   end
 
