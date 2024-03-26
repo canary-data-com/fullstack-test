@@ -46,8 +46,9 @@ To add addition company info to fetch insider trade info (**3 companies already 
 - Run `mix setup` to install, setup dependencies and setup the database
 - Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-![alt text](image.png)
+Now REST APIs can be accessible at [`localhost:4000/api`](http://localhost:4000/api).
+
+**Note:** When starting the application, please be patient as it may take approximately 3 minutes for the GenServer to begin the initial iteration of data fetching. This delay is due to a pre-set interval of time. Kindly wait until the database is populated with some data before proceeding.
 
 ---
 
