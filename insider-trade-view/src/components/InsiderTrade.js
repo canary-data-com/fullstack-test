@@ -3,8 +3,6 @@ import axios from 'axios';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 
-const apiUrl = process.env.INSIDER_TRADING_INFO_API_URL;
-
 const InsiderTrade = () => {
     const [stocks, setStocks] = useState([]);
     const [selectedOption, setSelectedOption] = useState('');
@@ -22,7 +20,7 @@ const InsiderTrade = () => {
 
     const fetchOptions = async () => {
         try {
-            const response = await axios.get(`${apiUrl}/companies`);
+            const response = await axios.get(`http://localhost:4000/api/companies`);
 
             const data = response.data.data.map(item => ({
                 label: item.company_name,
@@ -37,7 +35,7 @@ const InsiderTrade = () => {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get(`${apiUrl}/insider_trades?ticker=${selectedOption}`);
+            const response = await axios.get(`http://localhost:4000/api/insider_trades?ticker=${selectedOption}`);
             setStocks(response.data.data);
         } catch (error) {
             console.error('Error fetching data:', error);
