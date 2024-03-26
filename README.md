@@ -54,9 +54,9 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 ## External Dependencies
 
-- [**Floki**](https://github.com/philss/floki): Used for parsing HTML and XML content.
-- [**Skooma**](https://github.com/bobfp/skooma) : Used for incoming request validation.
-- [**Corsica**](https://github.com/whatyouhide/corsica): Used for handling CORS requests.
+- [**Floki**](https://github.com/philss/floki) for parsing HTML and XML content.
+- [**Skooma**](https://github.com/bobfp/skooma) for incoming request validation.
+- [**Corsica**](https://github.com/whatyouhide/corsica) for handling CORS requests.
 
 - [**credo**](https://github.com/rrrene/credo) for linting
 - [**mix format**](https://hexdocs.pm/mix/main/Mix.Tasks.Format.html) for automatical code formatting and consistent code style
